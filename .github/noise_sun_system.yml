@@ -21,11 +21,11 @@ jobs:
     # 执行构建步骤
     - name: 构建
       run: |
-          npm run dev
+          npm run build
     # 执行部署
     - name: 部署
       uses: JamesIves/github-pages-deploy-action@releases/v3 # 这个action会根据配置自动推送代码到指定分支
       with:
         ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }} # 指定密钥
         BRANCH: main  ##指定推送到的远程分支
-        FOLDER: ./index.html # 指定构建之后要推送哪个目录的代码
+        FOLDER: /dist # 指定构建之后要推送哪个目录的代码
