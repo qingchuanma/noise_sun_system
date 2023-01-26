@@ -13,6 +13,6 @@ export default {
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  plugins: [react()],
+  plugins: [vanilla()],
   base: '/noise_sun_system/'
 })
