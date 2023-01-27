@@ -1,10 +1,10 @@
 Instruction (we tried to make it as a GH page but the background didn't show up, so we put the whole code here.)
 To implement the code you can follow these steps:
 
-1.clone the project to your computer
-2.run ' npm install ' (make sure you have npm and vite in your environment)
-3.run ' npm run dev '
-4.open from localhost
+1.clone the project to your computer<br />
+2.run ' npm install ' (make sure you have npm and vite in your environment)<br />
+3.run ' npm run dev '<br />
+4.open from localhost<br />
 
 Here are some keyboard event to do some operations.
 -press 'q' to see the background<br />
